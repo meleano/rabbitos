@@ -1,0 +1,62 @@
+.content_container {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	z-index: 10;
+	color: white;
+	text-transform: uppercase;
+}
+.content_container .titulon {
+	font-size: 10rem;
+	font-family: 'Mohave', sans-serif;
+	margin-bottom: -3rem;
+	text-shadow: 3px 6px 3px rgb(128, 77, 0), 0 0 2em rgb(0, 70, 75), 0 0 0.5em rgb(0, 38, 255);
+
+}
+
+.content_container .subtitulillo {
+	font-size: 4rem;
+	font-family: var(--lato-font-family);
+	font-style: italic;
+	color: #ececec;
+	margin-bottom: 3rem;
+	text-shadow: 3px 5px 1px rgb(128, 77, 0), 0 0 1em rgb(111, 0, 255), 0 0 0.2em rgb(0, 247, 255);
+}
+
+.content_container .nombrecillos {
+	font-size: 2rem;
+	font-family: var(--lato-font-family);
+	opacity: 1;
+	text-shadow: 2px 4px 0.1px rgb(128, 77, 0), 0 0 1em rgb(0, 9, 134), 0 0 0.2em rgb(0, 247, 255);
+}
+
+.boton_conejero {
+	background: var(--primary-red);
+	color: white;
+	border: groove;
+
+	padding: 1rem;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.25s;
+	border: none;
+	margin: 2rem 0;
+	text-transform: capitalize;
+	outline: 8px ridge rgb(250, 135, 3);
+	box-shadow: 1px 1px 2px rgb(128, 77, 0), 0 0 1em rgb(0, 047, 255), 0 0 0.2em rgb(0, 204, 255);
+
+}
+
+.boton_conejero:hover {
+	outline: 10px ridge rgb(128, 77, 0);
+	border-radius: 1.75rem;
+	font-size: 2rem;
+	box-shadow: 1px 1px 2px rgb(6, 215, 252), 0 0 1em rgb(0, 255, 255), 0 0 0.2em rgb(0, 81, 255);
+}
+
+.boton_conejero:active {
+	transform: translate(0, 15px);
+	box-shadow: 1px 1px 2px rgb(22, 6, 252), 0 0 1em rgb(0, 47, 255), 0 0 0.2em rgb(0, 238, 255);
+}
